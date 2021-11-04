@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>button demo</title>
+    <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kirakiray/o-book/comps/o-md/o-md.js"></script>
+    <script src="./bs-button.js"></script>
+    <style>
+        body {
+            background-color: #eee;
+        }
+
+        bs-button {
+            visibility: hidden;
+        }
+
+        [x-render="1"]:defined {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <o-md src="readme.md"></o-md>
+
+    <script>
+        $("o-md").on("inited", e => {
+            $('o-md').shadow.$("#target_btn").on("click", e => {
+                alert("click succeed!");
+            })
+        });
+    </script>
+</body>
+
+</html>
