@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>button demo</title>
+    <title>input demo</title>
     <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/kirakiray/o-book/comps/o-md/o-md.js"></script>
-    <script src="./bs-button.js"></script>
+    <script src="./bs-input.js"></script>
     <style>
       body {
         background-color: #eee;
       }
 
-      bs-button {
+      bs-input {
         visibility: hidden;
       }
 
@@ -25,15 +25,5 @@
 
   <body>
     <o-md src="readme.md"></o-md>
-
-    <script>
-      $("o-md").on("inited", (e) => {
-        $("o-md")
-          .shadow.$("#target_btn")
-          .on("click", (e) => {
-            alert("click succeed!");
-          });
-      });
-    </script>
   </body>
 </html>

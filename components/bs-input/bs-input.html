@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="../../public.css" />
+<style>
+  :host {
+    display: inline-block;
+  }
+</style>
+<textarea
+  #if="type === 'textarea'"
+  class="form-control"
+  id="exampleFormControlTextarea1"
+  attr:placeholder="placeholder"
+  attr:rows="row || 3"
+  sync:value="value"
+  part="textarea"
+></textarea>
+<input
+  #else
+  attr:class="getClassStr()"
+  attr:type="type"
+  attr:placeholder="placeholder"
+  sync:value="value"
+  part="input"
+/>

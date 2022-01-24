@@ -6,20 +6,20 @@
 
 ofajs 后在引用 bs-button；
 
-##### 直接引用
+#### 直接引用
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/kirakiray/o_blog/bootstrap-ofa/components/bs-button/bs-button.js"></script>
 ```
 
-##### 模块内使用
+#### 模块内使用
 
 ```javascript
 load("https://cdn.jsdelivr.net/gh/kirakiray/o_blog/bootstrap-ofa/components/bs-button -p");
 ```
 
-### 使用组件
+### 使用标签
 
 在页面中直接使用 `bs-button`
 
