@@ -35,7 +35,7 @@ load(
             <!-- 新建后会被放到顶部的内容 -->
             <!-- 不会被展示到代码显示上 -->
             <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"></script>
-            <script src="{{origin}}/components/bs-button/bs-button.js"></script>
+            <script src="{{dir}}/bs-button.js"></script>
         </codehead>
         <bs-button>我是按钮</bs-button>
     </template>
@@ -170,7 +170,7 @@ Bootstrap 内置了几种预定义的按钮样式，每种样式都有自己的�
             <!-- 新建后会被放到顶部的内容 -->
             <!-- 不会被展示到代码显示上 -->
             <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"></script>
-            <script src="{{origin}}/components/bs-button/bs-button.js"></script>
+            <script src="{{dir}}/bs-button.js"></script>
         </codehead>
         <bs-button id="target_btn">Click Me</bs-button>
         <script>

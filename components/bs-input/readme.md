@@ -35,7 +35,7 @@ load(
             <!-- 新建后会被放到顶部的内容 -->
             <!-- 不会被展示到代码显示上 -->
             <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"></script>
-            <script src="{{origin}}/components/bs-input/bs-input.js"></script>
+            <script src="{{dir}}/bs-input.js"></script>
         </codehead>
         <bs-input></bs-input>
     </template>
@@ -117,7 +117,7 @@ type file: <bs-input type="file"></bs-input>
             <!-- 新建后会被放到顶部的内容 -->
             <!-- 不会被展示到代码显示上 -->
             <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"></script>
-            <script src="{{origin}}/components/bs-input/bs-input.js"></script>
+            <script src="{{dir}}/bs-input.js"></script>
         </codehead>
       <bs-input type="textarea" row="4" placeholder="placeholder input text" style="width:500px;"></bs-input>
     </template>
