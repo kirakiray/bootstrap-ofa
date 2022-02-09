@@ -16,7 +16,9 @@ ofajs 后在引用 bs-button；
 #### 模块内使用
 
 ```javascript
-load("https://cdn.jsdelivr.net/gh/kirakiray/o_blog/bootstrap-ofa/components/bs-button -p");
+load(
+  "https://cdn.jsdelivr.net/gh/kirakiray/o_blog/bootstrap-ofa/components/bs-button -p"
+);
 ```
 
 ### 使用标签
@@ -27,8 +29,17 @@ load("https://cdn.jsdelivr.net/gh/kirakiray/o_blog/bootstrap-ofa/components/bs-b
 <bs-button>我是按钮</bs-button>
 ```
 
-<bs-button>我是按钮</bs-button>
-
+<code-run>
+    <template>
+        <codehead>
+            <!-- 新建后会被放到顶部的内容 -->
+            <!-- 不会被展示到代码显示上 -->
+            <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"></script>
+            <script src="{{origin}}/components/bs-button/bs-button.js"></script>
+        </codehead>
+        <bs-button>我是按钮</bs-button>
+    </template>
+</code-run>
 
 ## 属性
 
@@ -147,10 +158,25 @@ Bootstrap 内置了几种预定义的按钮样式，每种样式都有自己的�
 <bs-button id="target_btn">Click Me</bs-button>
 
 <script>
-$("#target_btn").on("click",e=>{
+  $("#target_btn").on("click", (e) => {
     alert("click succeed!");
-})
+  });
 </script>
 ```
 
-<bs-button id="target_btn">Click Me</bs-button>
+<code-run>
+    <template>
+        <codehead>
+            <!-- 新建后会被放到顶部的内容 -->
+            <!-- 不会被展示到代码显示上 -->
+            <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"></script>
+            <script src="{{origin}}/components/bs-button/bs-button.js"></script>
+        </codehead>
+        <bs-button id="target_btn">Click Me</bs-button>
+        <script>
+        $('#target_btn').on("click", (e) => {
+            alert("click succeed!");
+          });
+        </script>
+    </template>
+</code-run>

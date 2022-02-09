@@ -9,6 +9,8 @@
   class="form-control"
   id="exampleFormControlTextarea1"
   attr:placeholder="placeholder"
+  attr:disabled="disabled"
+  attr:readonly="readonly"
   attr:rows="row || 3"
   sync:value="value"
   part="textarea"
@@ -18,6 +20,11 @@
   attr:class="getClassStr()"
   attr:type="type"
   attr:placeholder="placeholder"
+  attr:disabled="disabled"
+  attr:readonly="readonly"
+  attr:list="datalistid"
   sync:value="value"
   part="input"
 />
+<datalist attr:id="datalistid"></datalist>
+<div style="display: none"><slot slotchangesubtree></slot></div>
