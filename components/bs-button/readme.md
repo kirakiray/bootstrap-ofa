@@ -9,7 +9,7 @@ ofajs 后在引用 bs-button；
 #### 直接引用
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@3.0.13/dist/ofa.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/kirakiray/o_blog/bootstrap-ofa/components/bs-button/bs-button.js"></script>
 ```
 
@@ -34,7 +34,7 @@ load(
         <codehead>
             <!-- 新建后会被放到顶部的内容 -->
             <!-- 不会被展示到代码显示上 -->
-            <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@3.0.13/dist/ofa.js"></script>
             <script src="{{dir}}/bs-button.js"></script>
         </codehead>
         <bs-button>我是按钮</bs-button>
@@ -169,7 +169,7 @@ Bootstrap 内置了几种预定义的按钮样式，每种样式都有自己的�
         <codehead>
             <!-- 新建后会被放到顶部的内容 -->
             <!-- 不会被展示到代码显示上 -->
-            <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js/dist/ofa.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@3.0.13/dist/ofa.js"></script>
             <script src="{{dir}}/bs-button.js"></script>
         </codehead>
         <bs-button id="target_btn">Click Me</bs-button>
